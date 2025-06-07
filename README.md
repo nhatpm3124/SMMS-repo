@@ -9,9 +9,6 @@
 
 > 🔐 A comprehensive user management system featuring access control management, 2FA authentication, and complete user data management.
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/your-username/your-repo/raw/main/docs/assets/banner.png" alt="Project Banner" width="100%">
-</div>
 
 ## ✨ Features Highlights
 
@@ -111,16 +108,7 @@ Make sure you have the following installed:
    ```
 </details>
 
-## 🔑 Key Features
 
-### 👥 User Management
-- User registration and authentication
-- Profile management
-- Role-based access control:
-  - 👑 Root
-  - 👨‍💼 Admin
-  - 👨‍🏫 Mentor
-  - 👥 Brosis
 
 ### 🔒 Security Features
 - JWT Authentication
@@ -159,41 +147,6 @@ Comprehensive documentation available in the `docs` directory:
 ./start_production.sh
 ```
 
-## 👥 Contributing
-
-We welcome contributions! Here's how you can help:
-
-### 🔄 Repository Setup
-```bash
-git remote add origin https://github.com/yourusername/your-repo-name.git
-git branch -M main
-git push -u origin main
-```
-
-### 🌟 For Contributors
-1. Fork the repository
-2. Create your feature branch
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. Commit your changes
-   ```bash
-   git commit -m '✨ Add amazing feature'
-   ```
-4. Push to the branch
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-5. Open a Pull Request
-
-### 🔄 Sync Your Fork
-```bash
-git remote add upstream https://github.com/original-owner/original-repo.git
-git fetch upstream
-git merge upstream/main
-git push origin main
-```
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -202,8 +155,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-Made with ❤️ by Your Team Name
+Made with ❤️ by Dottrip Industries
 
-[Report Bug](https://github.com/yourusername/your-repo-name/issues) · [Request Feature](https://github.com/yourusername/your-repo-name/issues)
 
 </div>

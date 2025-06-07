@@ -1,0 +1,38 @@
+{
+  "name": "user-management-system",
+  "version": "1.0.0",
+  "description": "Hệ thống quản lý người dùng với xác thực 2FA và phân quyền",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "bash start_project.sh",
+    "clean": "./clean_project.sh",
+    "restart": "./restart_servers.sh",
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && python run.py",
+    "build": "cd frontend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@types/qrcode": "^1.5.5"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.16",
+    "@types/uuid": "^10.0.0",
+    "fuse.js": "^7.1.0",
+    "lodash": "^4.17.21",
+    "qrcode": "^1.5.4",
+    "qrcode.react": "^4.2.0",
+    "serve": "^14.2.1",
+    "uuid": "^11.1.0"
+  }
+}
